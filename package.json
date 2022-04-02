@@ -1,0 +1,25 @@
+{
+  "name": "seedao-event-bot",
+  "version": "0.0.1",
+  "description": "SeeDAO Event Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraderDAO/discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TraderDAO/discord-bot/issues"
+  },
+  "homepage": "https://github.com/TraderDAO/discord-bot#readme",
+  "dependencies": {
+    "detritus-client": "^0.16.3",
+    "dotenv": "^14.2.0"
+  }
+}
