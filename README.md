@@ -1,7 +1,5 @@
 # SeeDAO 的活动通知 Discord 机器人
 
-> ⚠️ 准备中 ⚠️ 有问题请到 [Discord #开发者公会](https://discord.com/channels/841189467128594442/918351013952503868) 标注 @Ricky Wang 询问更多
-
 鉴于 SeeDAO 资料几乎都储存在 Notion, 所以透过 Notion 作为资料库读取资料, 然后对应在 Discord 做交互
 使用 Nodejs 与 Typescript 进行开发
 
@@ -15,7 +13,8 @@ TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 开启机器人
 
-请先确定有在 `.env` 放好 TOKEN
+请先确定有在 `.env` 放好 TOKEN, 如果要用到 Notion 需要提供 Notion API Key
+关于 Notion API Key 申请方式请见: [取得 Notion API Key 流程](https://rowan-mollusk-a75.notion.site/Notion-API-Key-a81c61a2ce5648c8ac5d127deda253e7)
 
 ```sh
 npm install

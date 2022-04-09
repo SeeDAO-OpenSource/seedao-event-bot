@@ -10,16 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TraderDAO/discord-bot.git"
+    "url": "git+https://github.com/SeeDAO-OpenSource/seedao-event-bot.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/TraderDAO/discord-bot/issues"
+    "url": "https://github.com/SeeDAO-OpenSource/seedao-event-bot/issues"
   },
-  "homepage": "https://github.com/TraderDAO/discord-bot#readme",
+  "homepage": "https://github.com/SeeDAO-OpenSource/seedao-event-bot#readme",
   "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "canvas": "^2.9.1",
+    "crypto": "^1.0.1",
     "detritus-client": "^0.16.3",
-    "dotenv": "^14.2.0"
+    "dotenv": "^14.2.0",
+    "module-alias": "^2.2.2",
+    "node-ical": "^0.15.1"
+  },
+  "_moduleAliases": {
+    "@": "src"
   }
+
 }

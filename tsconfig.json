@@ -9,17 +9,20 @@
         ],
         "sourceMap": true,
         "types": [
-            // add node as an option
-            "node",
-            "reflect-metadata"
+            "node"
         ],
         "typeRoots": [
-            // add path to @types
             "node_modules/@types"
         ],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+        },
     },
     "exclude": [
         "node_modules"
